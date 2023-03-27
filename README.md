@@ -2,21 +2,21 @@
 
 * **Install all require  gems**
 
- `bundle install`
+   `bundle install`
 
 * **Create database**
 
- `rails db:create`
+   `rails db:create`
 
 * **Execute migrations to create tables**
 
- `rails db:migrate`
+   `rails db:migrate`
 
 * **Create a file with name .env inside root folder**
 
 * **Put below mentioned key and values inside .env file**
 
- `API_TOKEN=7d12221d4cd3....`
+   `API_TOKEN=7d12221d4cd3....`
 
 * **This token will be used to pass in registration and login apis header**
 
