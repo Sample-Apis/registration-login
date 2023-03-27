@@ -1,28 +1,25 @@
 ## Start Application
 
-```
-* Install all require  gems
+* **Install all require  gems**
 
-$ bundle install
+ `bundle install`
 
-* Create database
+* **Create database**
 
-$ rails db:create
+ `rails db:create`
 
-* Execute migrations to create tables
+* **Execute migrations to create tables**
 
-$ rails db:migrate
+ `rails db:migrate`
 
-* Create a file with name .env inside root folder
+* **Create a file with name .env inside root folder**
 
-* Put below mentioned key and values inside .env file
+* **Put below mentioned key and values inside .env file**
 
-  API_TOKEN=7d12221d4cd3....
+ `API_TOKEN=7d12221d4cd3....`
 
-* This token will be used to pass in registration and login apis header
+* **This token will be used to pass in registration and login apis header**
 
-
-```
 
 ## APIS
 
@@ -36,7 +33,7 @@ $ rails db:migrate
 
 ### Signup user
 
-`[POST] /api/users`
+**[POST] /api/users**
 
     "user": {
         "email": "abc@test.com",
@@ -47,7 +44,7 @@ $ rails db:migrate
 
 ### Login user (Using email/password)
 
-`[POST] /api/users/sign_in`
+**[POST] /api/users/sign_in**
 
     "user" : {
         "email" : "abc@test.com",
